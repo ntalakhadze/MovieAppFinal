@@ -9,7 +9,7 @@ export interface Movie {
 export interface State {
   search: string;
   results: string[];
-  selected: Movie;
+  selected: any;
   favorites: Movie[];
   deleted: Movie[];
 }
